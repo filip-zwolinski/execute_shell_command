@@ -31,3 +31,15 @@ Server will be available on address http://localhost:8080
 ```bash
 $ npm run test
 ```
+
+## Usage
+
+Endpoint for executing shell commands is available on:
+```bash
+POST /execute
+
+# Request body example
+{
+    command: "ls -la"
+}
+```
